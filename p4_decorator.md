@@ -3,6 +3,7 @@
 * 过多继承会造成混乱
 * 开发扩展，关闭修改的原则（这就是为什么new了又new）
 * 优势在于可以在运行时动态地、不限量地增加特性
+
 ## JAVA io中的使用
 * 一个例子读懂`new LowerCaseInputStream(new BufferedInputStream(new FileInputStream("test.txt")));`
 * 记得回看下bufferedinputstream，虽然现在也不太写java了
